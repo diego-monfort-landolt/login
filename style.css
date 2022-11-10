@@ -24,6 +24,9 @@ h1 {
     padding: 20px;
     
 }
+h3 {
+    text-align: center;
+}
 
 form input {
     margin: 5px;
