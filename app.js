@@ -19,14 +19,16 @@ var nueva = null;
 function nuevaventana(){
     nueva = window.open("","", "resizable, width=300, heigth=300");
     nueva.document.open();
-    nueva.document.writeIn("<html><head><title>Neues Dokument</title></head></html>");
 
-    nueva.document.writeIn("<body><h1>Das ist wie ein H1</h1></body>");
+    nueva.document.write("<html><head><title>Neues Dokument</title></head></html>");
 
-    nueva.document.writeIn("<img src='img3.jpg' height='15' width='15'>");
+    nueva.document.write("<body><h1>Das ist wie ein H1</h1>");
 
-    nueva.document.writeIn("<h2>Das ist ein untertitel!</h2>");
-    nueva.document.writeIn("</body></html>");
+    nueva.document.write("<img src='img3.jpg' height='55' width='55'>");
+
+    nueva.document.write("<h2>Das ist ein untertitel!</h2>");
+
+    nueva.document.write("</body></html>");
 
 
     nueva.document.close();
