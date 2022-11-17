@@ -22,7 +22,7 @@ function nuevaventana(){
 
     nueva.document.write("<html><head><title>Neues Dokument</title></head></html>");
 
-    nueva.document.write("<body><h1>Das ist wie ein H1</h1>");
+    nueva.document.write("<body><center><h1>Das ist wie ein H1</h1></center>");
 
     nueva.document.write("<img src='img3.jpg' height='55' width='55'>");
 
@@ -33,3 +33,4 @@ function nuevaventana(){
 
     nueva.document.close();
 }
+
