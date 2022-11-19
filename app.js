@@ -1,6 +1,7 @@
 //loguear is the function on the button - user and clave if is the corect data - window newopen- incorect date
 
-
+let versuch = prompt("indice su nombre: ");
+alert('Your Welcom' + versuch);
 
 
 function loguear() {
